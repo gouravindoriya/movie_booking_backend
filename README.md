@@ -1,6 +1,11 @@
 
 # Ticket Booking System Backend
 
+
+## DB design
+
+![DB design](image.png)
+
 Express + TypeScript backend for authentication and ticket booking APIs.
 
 ## 1. Project Setup
@@ -190,3 +195,5 @@ curl -X GET http://localhost:3000/dashboard \
 - Passwords are not stored in plain text. They are hashed with bcrypt before saving.
 - Duplicate email protection is enforced by the database unique constraint on users.email.
 - JWT token lifetime is currently 30 minutes.
+
+
